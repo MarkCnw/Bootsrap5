@@ -1,36 +1,36 @@
-*{
-    font-family: 'Sarabun', sans-serif;
+* {
+    font-family: 'Sarabun';
 }
 
-.carousel-item{
+.carousel-item {
     height: 500px;
 }
 
-.carousel-image-1{
+.carousel-image-1 {
     background-image: url(https://dlcdnwebimgs.asus.com/gain/0BCA80D4-4835-4872-AE5B-622ED5A22EC7/fwebp);
     background-size: cover;
 }
 
-.carousel-image-2{
+.carousel-image-2 {
     background-image: url(https://www.asus.com/WebsitesBanner/global/banners/ct4hri8gh8bymy7x/ct4hri8gh8bymy7x-0_0_desktop_0_1X.jpg);
     background-size: cover;
 }
 
-.carousel-image-3{
+.carousel-image-3 {
     background-image: url(https://dlcdnwebimgs.asus.com/gain/B58F5912-B945-4AA8-8F06-8777109B2EFC/fwebp);
     background-size: cover;
 }
 
-#about{
+#about {
     min-height: 200px;
     position: relative;
     background-image: url(https://dlcdnwebimgs.asus.com/gain/FDFFE426-0A29-40D5-8E26-C838EB26CA8F);
     background-repeat: no-repeat;
-    text-align: center; 
+    text-align: center;
     color: #fff;
 }
 
-.dark-overlay{
+.dark-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,11 +39,10 @@
     height: 100%;
 }
 
-.card-group{
+.card-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     width: 90%;
     margin-left: 60px;
 }
-
